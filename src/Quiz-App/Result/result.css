@@ -1,0 +1,11 @@
+.result{
+    background-image: url(../assets/quiz\ background6.avif);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+}

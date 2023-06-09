@@ -1,0 +1,54 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.settings{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Poppins", sans-serif;
+    font-weight: 300;
+}
+.settings-select{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+}
+.home{
+    background-image: url(../assets/quiz\ background7.avif);
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 90%;
+    width: 35%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cube{
+    font-size: 8rem;
+    color: orange;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .content {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .settings {
+      width: 100%;
+    }
+  }
